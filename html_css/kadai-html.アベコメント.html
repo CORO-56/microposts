@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML/CSSでWebページ作成</title>
+        <link rel="stylesheet" href="kadai-css.アベコメント.css">
+        
+    </head>
+    <body>
+    <!--ここからヘッダー-->
+    <header>
+        ここはヘッダーです。
+    </header>
+    <!--ヘッダーここまで-->
+
+<!--HTMLの基本は理解できていると思います。2点だけ細かい修正が有りましたので、赤印の行のコメントを見てください。-->
+<!--<a>が抜けていますor </a>の削除忘れです。ナビゲーションなので<a></a>を入れておいた方が無難ですが　↓元のHTMLです-->
+        <!--ここからnav要素の中にul要素-->
+        <!--    <nav id="global_navi">-->
+        <!--        <ul>-->
+        <!--            <li class="current">Webサイトの仕組み</a></li>-->
+        <!--            <li>HTMLとCSSの概要</a></li>-->
+        <!--            <li>HTMLの基本</a></li>-->
+        <!--            <li>head要素内の記述</a></li>-->
+        <!--            <li>body要素内の記述</a></li>-->
+        <!--            <li>id属性とclass属性の設定</a></li>-->
+        <!--            <li>bodyHTMLチュートリアル</a></li>-->
+        <!--        </ul>-->
+        <!--    </nav>-->
+        <!--ここまでnav要素の中にul要素-->
+        
+        <!--↓修正HTML-->
+        <nav id="menu">
+            <ul>
+                <li class="current"><a href="#">Webサイトの仕組み</a></li>
+                <li><a href="#">HTMLとCSSの概要</a></li>
+                <li><a href="#">HTMLの基本</a></li>
+                <li><a href="#">head要素内の記述</a></li>
+                <li><a href="#">body要素内の記述</a></li>
+                <li><a href="#">id属性とclass属性の設定</a></li>
+                <li><a href="#">bodyHTMLチュートリアル</a></li>
+            </ul>
+        </nav>
+        
+        <!--or-->
+        
+        <!--<nav id="global_navi">-->
+        <!--    <ul>-->
+        <!--        <li class="current">Webサイトの仕組み</li>-->
+        <!--        <li>HTMLとCSSの概要f</li>-->
+        <!--        <li>HTMLの基本</li>-->
+        <!--        <li>head要素内の記述</li>-->
+        <!--        <li>body要素内の記述</li>-->
+        <!--        <li>id属性とclass属性の設定</li>-->
+        <!--        <li>bodyHTMLチュートリアル</li>-->
+        <!--    </ul>-->
+        <!--</nav>-->
+        <!--↑修正HTML-->
+        
+<!--インデントを統一しておいた方が、（ユーザの表示に変化はありませんが）コードの可読性が上がります。　-->
+        <!--ここからdiv id="main"-->
+        <!--    <div id="main">-->
+        <!--            <h1>HTML/CSSでWebページ作成</h1>-->
+        <!--                <h2>Webサイトの仕組み</h2>-->
+        <!--                <p>Webサイトとは、Webページをひとまとまりにして公開したWebページの集まりのことです。-->
+        <!--                </p>-->
+        <!--                <h3>Webブラウザとは</h3>-->
+        <!--                <p>Webブラウザの説明が入ります。-->
+        <!--                </p>-->
+        <!--                 <h3>Webページの構成</h3>-->
+        <!--                <p>Webページ構成の説明が入ります。-->
+        <!--                </p>-->
+        <!--                 <h3>Webページの表示</h3>-->
+        <!--                <p>Webページの表示の説明が入ります。-->
+        <!--                 </p>-->
+        <!--    </div>-->
+        <!--ここまでdiv id="main"-->
+        
+        
+        <!--↓修正HTML-->
+        <div id="main">
+            <h1>HTML/CSSでWebページ作成</h1>
+            <h2>Webサイトの仕組み</h2>
+            <p>Webサイトとは、Webページをひとまとまりにして公開したWebページの集まりのことです。</p>
+            <h3>Webブラウザとは</h3>
+            <p>Webブラウザの説明が入ります。</p>
+            <h3>Webページの構成</h3>
+            <p>Webページ構成の説明が入ります。</p>
+            <h3>Webページの表示</h3>
+            <p>Webページの表示の説明が入ります。</p>
+        </div>
+        <!--↑修正HTML-->
+        
+        
+        
+        <!--ここからフッター-->
+        <footer>
+            ここはフッターです。
+        </footer>
+        <!--ここからフッター-->
+        
+        
+        
+    </body>
+</html>

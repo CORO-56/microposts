@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 14px;
+    width: 1000px;
+}
+
+        header {
+          height: 20px;
+          background-color: #ffcccc;
+        }
+        
+        #main {
+          float: left;
+          width: 700px;
+          background-color: #ccffcc;
+        }
+        
+        #menu {
+          float: right;
+          width: 300px;
+          background-color: #ccccff;
+        }
+        
+        footer {
+          clear: both;
+          height: 20px;
+          background-color: #ffccff;
+        }

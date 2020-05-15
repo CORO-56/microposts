@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/*コメントのみ書いておきます。*/
+/*kadai-html.html を右クリック→preview でCSSで装飾されたHTMLを見ることができます。*/
+/*そこで、id=main と id=menu の間が空いてしまっているのが確認できるかと思います。（画面幅を広げたり縮めたりしてみてください）*/
+/*どうしたらサンプルの様に隙間なくできるか、やってみてください。*/
+/*ヒント、#main と #menu　の記述は合っています。*/
+
+
+/*2020028追記*/
+/*ヒントその2　*/
+/*id=main 700px  id=menu 300px は前提なので戻していただいて、そのうえで    */
+/*カリキュラムのサンプルと見比べてください。*/
+/*要素同士の隙間以外に違うところがありますよね？*/
+/*56行～に答えを載せておきます。*/
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 14px;
+    width: 1000px;
+}
+
+        header {
+          height: 20px;
+          background-color: #ffcccc;
+        }
+        
+        #main {
+          float: left;
+          width: 700px;
+          background-color: #ccffcc;
+        }
+        
+        #menu {
+          float: right;
+          width: 300px;
+          background-color: #ccccff;
+        }
+        
+        footer {
+          clear: both;
+          height: 20px;
+          background-color: #ffccff;
+        }
+        
+        
+        
+        
+        
+        
+/*そう、「ヘッダとフッターが、画面の途中までしかない」のです。*/
+/*ヘッダの幅 = フッターの幅 = main+menuの幅*/
+/*ということはどうしたらいいでしょうか？*/
+/*26行目に解答ソースがあります。*/
